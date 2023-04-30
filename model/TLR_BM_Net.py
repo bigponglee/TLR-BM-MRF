@@ -73,8 +73,6 @@ class TLR_BM_NET(torch.nn.Module):
             x_recon: [x] [batch_size, 2*T, Nx, Ny]
             x_map: parameter maps [batch_size, 2, Nx, Ny]
             ata_x: ata(X) [batch_size, 2*T, Nx, Ny]
-            x_sym: 变换算子正交性 [batch_size, 2*T, Nx, Ny]
-            svd_flag: svd是否成功执行，0表示成功，1表示失败 
         '''
         out_map = []
         ata_x = []
