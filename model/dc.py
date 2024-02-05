@@ -55,7 +55,7 @@ class Data_Consistency(torch.nn.Module):
         self.mu_max = cfg.data_shape[0] * \
             cfg.data_shape[1]/cfg.k_sample_points  # N/M
         self.mu_parameter = torch.nn.Parameter(
-            torch.Tensor([0.01])).type(cfg.dtype_float).to(cfg.device)
+            torch.Tensor([0.01]))
 
     def forward(self, x, atb):
         '''
