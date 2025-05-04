@@ -53,6 +53,8 @@ python test.py
 
 
 # References
+If you find this code useful, please cite the following paper:
+```
 * https://ieeexplore.ieee.org/document/10210402
 * @ARTICLE{10210402,
   author={Li, Peng and Hu, Yue},
@@ -63,3 +65,4 @@ python test.py
   number={},
   pages={1-1},
   doi={10.1109/TMI.2023.3302872}}
+  ```
